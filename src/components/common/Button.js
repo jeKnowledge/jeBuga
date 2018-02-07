@@ -17,15 +17,17 @@ const styles = {
     flex: 1,
     alignSelf: 'stretch',
     backgroundColor: '#fff',
-    borderRadius: 15,
+    borderRadius: 20,
     justifyContent: 'center',
     alignItems: 'center'
   },
 
   textStyle: {
-    color: '#007aff',
-    fontSize: 50,
-    fontWeight: '600',
+    color: '#2489a0',
+    //color: 'transparent',
+    fontSize: 22,
+      //lineHeight: 55 * 0.75,
+      //paddingTop: 55 - (55 * 0.75),
     backgroundColor: 'transparent'
   }
 };

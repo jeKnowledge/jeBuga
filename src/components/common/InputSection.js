@@ -15,9 +15,10 @@ const styles = {
     padding: 5,
     justifyContent: 'flex-start',
     flexDirection: 'row',
-    borderColor: '#ddd',
-    borderRadius: 10,
-    marginTop: '1%',
+    borderColor: '#ffffff',
+    borderRadius: 25,
+    borderWidth: 2.5,
+    marginTop: '6%',
     position: 'relative'
   }
 }
