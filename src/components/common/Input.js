@@ -20,10 +20,11 @@ const Input = ({ placeholder, value, onChangeText, secureTextEntry}) => {
 
 const styles = {
   inputStyle: {
-    color: '#000',
-    paddingRight: 5,
-    paddingLeft: 5,
-    fontSize: 18,
+    color: '#fff',
+    paddingRight: 15,
+    paddingLeft: 15,
+    fontSize: 20,
+    //fontFamily: "MyriadPro-Regular",
     lineHeight: 23,
     flex: 1
   },
