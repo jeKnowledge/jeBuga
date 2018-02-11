@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { View, Text, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 import { usernameChanged, passwordChanged } from '../actions';
-import { Background, Logo, Button, Card, CardSection, InputSection, Input } from './common';
+import { Background, Logo, Button, Card, CardSection, InputSection, Input, LogButton } from './common';
+import { Actions } from 'react-native-router-flux';
 
 class LoginForm extends Component {
   onUsernameChange(text) {
@@ -47,7 +48,7 @@ class LoginForm extends Component {
     }
     */
     return (
-      <Button>
+      <Button onPress={Actions.mainMenu} textStyle={styles.signInButtonTextStyle} buttonStyle={styles.signInButtonStyle}>
         Sign in
       </Button>
     );
@@ -80,19 +81,27 @@ class LoginForm extends Component {
           <CardSection>
             {this.renderButton()}
           </CardSection>
-          <Text style={styles.textStyle}>
-            Don't have an account? Signup
-          </Text>
-        </Card>
+          <LogButton onPress={Actions.signup}></LogButton>
+       </Card>
       </View>
     );
   }
 }
 
 const styles = {
-  textStyle: {
-    fontSize: 15,
+  signInButtonTextStyle: {
+    color: '#2489a0', 
+    fontSize: 22, 
     backgroundColor: 'transparent'
+  },
+
+  signInButtonStyle: {
+    flex: 1,
+    alignSelf: 'stretch',
+    backgroundColor: '#fff',
+    borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 }
 
