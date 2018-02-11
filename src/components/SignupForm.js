@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import { Background, Logo, Button, Card, CardSection, InputSection, Input, LogButton } from './common';
+import { Background, Button, Card, CardSection, InputSection, Input, LogButton } from './common';
 import { Actions } from 'react-native-router-flux';
 
 class SignupForm extends Component {

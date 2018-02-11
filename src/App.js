@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import ReduxThunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import reducers from './reducers';
+import Reducers from './reducers';
 import Router from './Router';
 
 class App extends Component {
   render() {
-    const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));
+    const store = createStore(Reducers, {}, applyMiddleware(ReduxThunk));
     return (
       <Provider store={store}>
        <Router />
