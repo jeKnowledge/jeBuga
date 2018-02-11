@@ -81,8 +81,8 @@ class LoginForm extends Component {
           <CardSection>
             {this.renderButton()}
           </CardSection>
-          <LogButton onPress={Actions.signup}></LogButton>
-       </Card>
+          <LogButton text="Don't have and account?" buttonText="Signup" onPress={Actions.signup}/>
+        </Card>
       </View>
     );
   }

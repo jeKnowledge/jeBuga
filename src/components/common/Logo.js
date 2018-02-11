@@ -26,8 +26,8 @@ const styles = {
   containerStyle: {
     justifyContent: 'center',
     alignItems: 'center',
-    marginTop: '30%',
-    marginBottom: '10%'
+    marginTop: '25%',
+    marginBottom: '5%'
 
   },
 
