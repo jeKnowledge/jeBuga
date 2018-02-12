@@ -7,10 +7,10 @@ import SignupForm from './components/SignupForm';
 const RouterComponent = () => {
   return (
     <Router>
-      <Scene>
-        <Scene key="login" component={LoginForm} hideNavBar/>
-        <Scene key="signup" component={SignupForm} hideNavBar/>
-        <Scene key="mainMenu" component={MainMenu} hideNavBar/>
+      <Scene hideNavBar>
+        <Scene key="login" component={LoginForm}/>
+        <Scene key="signup" component={SignupForm}/>
+        <Scene key="mainMenu" component={MainMenu}/>
       </Scene>
     </Router>
   );

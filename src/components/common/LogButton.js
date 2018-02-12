@@ -2,15 +2,15 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { Button } from '../common';
 
-const LogButton = ({ onPress }) => {
+const LogButton = ({ text, onPress, buttonText }) => {
   const { textStyle, viewStyle, buttonStyle, buttonTextStyle } = styles;
   return (
     <View style={viewStyle}>
       <Text style={textStyle}>
-        Don't have an account?
+        {text}
       </Text>
       <Button textStyle={buttonTextStyle} buttonStyle={buttonStyle} onPress={onPress}>
-        Signup
+        {buttonText}
       </Button>
     </View>
 
