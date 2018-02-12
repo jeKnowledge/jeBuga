@@ -4,16 +4,14 @@ import { Background, Logo, Button, Card, CardSection, InputSection, Input, LogBu
 import { View, Text, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 import { usernameChanged, passwordChanged, loginUser } from '../actions';
-import _ from 'lodash';
 
 class LoginForm extends Component {
   usernameChanged(value) {
-    const username = _.lowerCase(value.trim());
-    this.props.usernameChanged(username);
+    this.props.usernameChanged(value);
   }
 
   passwordChanged(value) {
-    this.props.passwordChanged(value.trim());
+    this.props.passwordChanged(value);
   }
 
   onButtonSubmit() {
@@ -28,8 +26,7 @@ class LoginForm extends Component {
         <Text
           style={{
             textAlign: 'center',
-            fontSize: 20,
-            color: '#cc3333'
+            fontSize: 12,
           }}
         >Sorry authentication failed!</Text>
       );
@@ -56,7 +53,6 @@ class LoginForm extends Component {
   render() {
     return (
       <View style = {{flex: 1, backgroundColor: '#eee'}}>
-        {this.renderError()}
         <Background
           source={require('../assets/images/background/background1.jpg')}
         />
@@ -81,7 +77,9 @@ class LoginForm extends Component {
           <CardSection>
             {this.renderButton()}
           </CardSection>
+          {this.renderError()}
           <LogButton text="Don't have and account?" buttonText="Signup" onPress={Actions.signup}/>
+
         </Card>
       </View>
     );
