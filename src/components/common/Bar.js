@@ -1,4 +1,5 @@
 import React from 'react';
+import { Dimensions } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import MCIIcon from 'react-native-vector-icons/Entypo';
 

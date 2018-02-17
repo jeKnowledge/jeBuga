@@ -1,6 +1,6 @@
 import React from 'react';
-import { Dimensions } from 'react-native';
-import { Scene, Router } from 'react-native-router-flux';
+import { Dimensions, TouchableOpacity } from 'react-native';
+import { Scene, Router, Actions } from 'react-native-router-flux';
 import MIIcon from 'react-native-vector-icons/MaterialIcons';
 import LoginForm from './components/LoginForm';
 import MainMenu from './components/MainMenu';
@@ -11,22 +11,38 @@ const RouterComponent = () => {
   return (
     <Router>
       <Scene >
-        <Scene key="login" component={LoginForm} hideNavBar/>
-        <Scene key="signup" component={SignupForm}/>
+        <Scene key="login" initial component={LoginForm} hideNavBar/>
+        <Scene
+          key="signup"
+          component={SignupForm}
+          navigationBarStyle={styles.barStyle}
+          renderTitle={() => { return <Bar/>; }}
+          renderBackButton={() =>
+              <TouchableOpacity onPress={() => Actions.pop()}>
+                <MIIcon
+                  name="keyboard-arrow-left"
+                  size={55}
+                  color="white"
+                  style={{bottom: 8}}/>
+              </TouchableOpacity>
+          }
+          back
+        />
         <Scene
           key="mainMenu"
           component={MainMenu}
           navigationBarStyle={styles.barStyle}
           renderTitle={() => { return <Bar/>; }}
           renderBackButton={() =>
-              <MIIcon
-                name="keyboard-arrow-left"
-                size={55}
-                color="white"
-                style={{bottom: 8}}/>
+              <TouchableOpacity onPress={() => Actions.pop()}>
+                <MIIcon
+                  name="keyboard-arrow-left"
+                  size={55}
+                  color="white"
+                  style={{bottom: 8}}/>
+              </TouchableOpacity>
           }
           back
-          initial
         />
       </Scene>
     </Router>
