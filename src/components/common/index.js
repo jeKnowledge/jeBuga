@@ -7,3 +7,4 @@ export * from './Input';
 export * from './InputSection';
 export * from './LogButton';
 export * from './Logo';
+export * from './Bar';
