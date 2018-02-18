@@ -11,7 +11,7 @@ const RouterComponent = () => {
   return (
     <Router>
       <Scene >
-        <Scene key="login" initial component={LoginForm} hideNavBar/>
+        <Scene key="login" component={LoginForm} hideNavBar/>
         <Scene
           key="signup"
           component={SignupForm}
@@ -29,6 +29,7 @@ const RouterComponent = () => {
           back
         />
         <Scene
+          initial
           key="mainMenu"
           component={MainMenu}
           navigationBarStyle={styles.barStyle}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import { Background, Logo, Button, Card, CardSection, InputSection, Input, LogButton } from './common';
+import { Background, Logo, GradientButton, Card, CardSection, InputSection, Input, LogButton } from './common';
 import { Actions } from 'react-native-router-flux';
 
 class MainMenu extends Component {
@@ -16,48 +16,40 @@ class MainMenu extends Component {
             <Text style={styles.subTitleStyle}>jeBuga</Text>
           </View>
           <Card>
-            <Button>
-              Games
-            </Button>
-            <Button>
-              Favorites
-            </Button>
-            <Button>
-              Favorite Guides
-            </Button>
-            <Button>
-              Feed
-            </Button>
-          </Card>
-        </View>
-      </View>
-    );
-  }
-}
+            <GradientButton colors={[ '#3BC0C1', '#0776B6']} text="Games"/>
+            <GradientButton colors={[ '#3BC0C1', '#0776B6']} text="Favorites"/>
+            <GradientButton colors={[ '#3BC0C1', '#0776B6']} text="Favorite Guides"/>
+              <GradientButton colors={[ '#3BC0C1', '#0776B6']} text="Feed"/>
+              </Card>
+            </View>
+          </View>
+          );
+          }
+          }
 
-const styles = {
-  titleStyle: {
-    fontSize: 30,
-    backgroundColor: 'transparent',
-    fontWeight: 'bold',
-  },
-  
-  subTitleStyle: {
-    fontSize: 30,
-    backgroundColor: 'transparent',
-  },
+          const styles = {
+            titleStyle: {
+              fontSize: 30,
+                backgroundColor: 'transparent',
+                fontWeight: 'bold',
+            },
 
-  containerStyle: {
-    backgroundColor: '#fff',
-    marginTop: '15%',
-    height: '82%'
-  },
+            subTitleStyle: {
+              fontSize: 30,
+                backgroundColor: 'transparent',
+            },
 
-  titleContainerStyle: {
-    marginLeft: '15%',
-    marginTop: '20%',
-    marginBottom: '5%'
-  },
- }
+            containerStyle: {
+              backgroundColor: '#fff',
+                marginTop: '15%',
+                height: '82%'
+            },
 
-export default MainMenu;
+            titleContainerStyle: {
+              marginLeft: '15%',
+              marginTop: '20%',
+              marginBottom: '5%'
+            },
+          }
+
+          export default MainMenu;
