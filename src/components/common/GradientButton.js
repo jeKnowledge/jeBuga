@@ -30,15 +30,14 @@ var styles = {
     paddingLeft: 15,
     paddingRight: 15,
     borderRadius: 20,
-    height: 100,
-    top: 100,
+    height: 35,
+    width: 300,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'baseline',
   },
   buttonText: {
     fontSize: 18,
     fontFamily: 'Gill Sans',
-    textAlign: 'center',
     margin: 10,
     color: '#ffffff',
     backgroundColor: 'transparent',
