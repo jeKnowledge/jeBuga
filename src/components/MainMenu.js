@@ -50,7 +50,7 @@ const styles = {
   containerStyle: {
     backgroundColor: '#fff',
     marginTop: '15%',
-    height: '82%'
+    height: '100%'
   },
 
   titleContainerStyle: {
