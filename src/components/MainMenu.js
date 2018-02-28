@@ -16,7 +16,7 @@ class MainMenu extends Component {
             <Text style={styles.subTitleStyle}>jeBuga</Text>
           </View>
           <Card>
-            <Button>
+            <Button onPress={() => Actions.gamesMenu()}>
               Games
             </Button>
             <Button>
@@ -60,4 +60,4 @@ const styles = {
   },
  }
 
-export default MainMenu;
+export { MainMenu };
