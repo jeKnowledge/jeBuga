@@ -42,6 +42,7 @@ const styles = {
         backgroundColor: 'transparent',
     },
 
+
     containerStyle: {
       backgroundColor: '#fff',
         marginTop: '15%',

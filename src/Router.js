@@ -31,6 +31,7 @@ const RouterComponent = () => {
         <Scene
           initial
           key="mainMenu"
+          initial
           component={MainMenu}
           navigationBarStyle={styles.barStyle}
           renderTitle={() => { return <Bar/>; }}
