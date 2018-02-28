@@ -3,9 +3,8 @@ import { Dimensions, TouchableOpacity } from 'react-native';
 import { Scene, Router, Actions } from 'react-native-router-flux';
 import MIIcon from 'react-native-vector-icons/MaterialIcons';
 import LoginForm from './components/LoginForm';
-import MainMenu from './components/MainMenu';
 import SignupForm from './components/SignupForm';
-import GameProfile from './components/GameProfile';
+import { MainMenu, GameProfile, GamesMenu } from './components';
 import { Bar } from './components/common';
 
 const RouterComponent = () => {
@@ -14,6 +13,7 @@ const RouterComponent = () => {
       <Scene >
         <Scene key="login" component={LoginForm} hideNavBar/>
         <Scene key="signup" component={SignupForm} hideNavBar/>
+
         <Scene
           key="mainMenu"
           component={MainMenu}
@@ -30,26 +30,43 @@ const RouterComponent = () => {
           }
           back
         />
-        <Scene
-          key="gameProfile"
-          component={GameProfile}
-          initial
-          navigationBarStyle={styles.barStyle}
-          renderTitle={() => { return <Bar/>; }}
-          renderBackButton={() =>
-              <TouchableOpacity onPress={() => Actions.pop()}>
-                <MIIcon
-                  name="keyboard-arrow-left"
-                  size={55}
-                  color="white"
-                  style={{bottom: 8}}/>
-              </TouchableOpacity>
-          }
-          back
-        >
-        </Scene>
-      </Scene>
-    </Router>
+
+      <Scene
+        key="gameProfile"
+        component={GameProfile}
+        navigationBarStyle={styles.barStyle}
+        renderTitle={() => { return <Bar/>; }}
+        renderBackButton={() =>
+            <TouchableOpacity onPress={() => Actions.pop()}>
+              <MIIcon
+                name="keyboard-arrow-left"
+                size={55}
+                color="white"
+                style={{bottom: 8}}/>
+            </TouchableOpacity>
+        }
+        back
+      />
+
+      <Scene
+        key="gamesMenu"
+        component={GamesMenu}
+        initial
+        navigationBarStyle={styles.barStyle}
+        renderTitle={() => { return <Bar/>; }}
+        renderBackButton={() =>
+            <TouchableOpacity onPress={() => Actions.pop()}>
+              <MIIcon
+                name="keyboard-arrow-left"
+                size={55}
+                color="white"
+                style={{bottom: 8}}/>
+            </TouchableOpacity>
+        }
+        back
+      />
+    </Scene>
+  </Router>
   );
 };
 
