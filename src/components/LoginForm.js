@@ -56,7 +56,7 @@ class LoginForm extends Component {
         <Background
           source={require('../assets/images/background/background1.jpg')}
         />
-        <Logo/>  
+        <Logo/>
         <Card>
           <InputSection>
             <Input
@@ -88,8 +88,8 @@ class LoginForm extends Component {
 
 const styles = {
   signInButtonTextStyle: {
-    color: '#2489a0', 
-    fontSize: 22, 
+    color: '#2489a0',
+    fontSize: 22,
     backgroundColor: 'transparent'
   },
 

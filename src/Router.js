@@ -5,6 +5,7 @@ import MIIcon from 'react-native-vector-icons/MaterialIcons';
 import LoginForm from './components/LoginForm';
 import MainMenu from './components/MainMenu';
 import SignupForm from './components/SignupForm';
+import GameProfile from './components/GameProfile';
 import { Bar } from './components/common';
 
 const RouterComponent = () => {
@@ -15,7 +16,6 @@ const RouterComponent = () => {
         <Scene key="signup" component={SignupForm} hideNavBar/>
         <Scene
           key="mainMenu"
-          initial
           component={MainMenu}
           navigationBarStyle={styles.barStyle}
           renderTitle={() => { return <Bar/>; }}
@@ -30,6 +30,24 @@ const RouterComponent = () => {
           }
           back
         />
+        <Scene
+          key="gameProfile"
+          component={GameProfile}
+          initial
+          navigationBarStyle={styles.barStyle}
+          renderTitle={() => { return <Bar/>; }}
+          renderBackButton={() =>
+              <TouchableOpacity onPress={() => Actions.pop()}>
+                <MIIcon
+                  name="keyboard-arrow-left"
+                  size={55}
+                  color="white"
+                  style={{bottom: 8}}/>
+              </TouchableOpacity>
+          }
+          back
+        >
+        </Scene>
       </Scene>
     </Router>
   );

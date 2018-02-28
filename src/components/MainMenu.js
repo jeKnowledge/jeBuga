@@ -41,7 +41,7 @@ const styles = {
     backgroundColor: 'transparent',
     fontWeight: 'bold',
   },
-  
+
   subTitleStyle: {
     fontSize: 30,
     backgroundColor: 'transparent',

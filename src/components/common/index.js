@@ -8,3 +8,5 @@ export * from './InputSection';
 export * from './LogButton';
 export * from './Logo';
 export * from './Bar';
+export * from './TopBar.js'
+export * from './GradientButton.js'

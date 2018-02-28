@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTNavItem.m \
-  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTNavItem.h \
-  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTComponent.h
+  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTNavItem.m \
+  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTComponent.h
