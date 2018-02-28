@@ -1,20 +1,20 @@
 dependencies: \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTWrapperViewController.m \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTWrapperViewController.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTNavItem.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTWrapperViewController.m \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTWrapperViewController.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h

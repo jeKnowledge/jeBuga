@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/React/Base/RCTMultipartStreamReader.h

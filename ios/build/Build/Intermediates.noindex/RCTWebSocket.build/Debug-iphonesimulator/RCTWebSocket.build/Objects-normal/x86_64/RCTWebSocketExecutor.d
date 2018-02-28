@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptExecutor.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/tiagomartins/jek/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/tiagomartins/jek/jeBuga/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptExecutor.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h
