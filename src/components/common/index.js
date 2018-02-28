@@ -8,4 +8,7 @@ export * from './InputSection';
 export * from './LogButton';
 export * from './Logo';
 export * from './Bar';
-export * from './GradientButton'
+export * from './TopBar.js'
+export * from './GradientButton.js'
+export * from './GameLogo.js'
+export * from './GameLabel.js'

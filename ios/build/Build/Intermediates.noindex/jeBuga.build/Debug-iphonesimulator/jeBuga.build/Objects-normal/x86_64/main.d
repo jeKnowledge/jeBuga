@@ -1,3 +1,2 @@
-dependencies: \
-  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/jeBuga/main.m \
-  /Users/joaobotelho/src/JeKnowledge/project_cycle/jeBuga/ios/jeBuga/AppDelegate.h
+dependencies: /Users/tiagomartins/jek/jeBuga/ios/jeBuga/main.m \
+  /Users/tiagomartins/jek/jeBuga/ios/jeBuga/AppDelegate.h
