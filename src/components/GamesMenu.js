@@ -4,18 +4,20 @@ import { TopBar, GameLabel } from './common';
 import { Dimensions } from 'react-native';
 
 class GamesMenu extends Component {
+
   render() {
+     
+    const { cardStyle } = styles;
+
     return(
       <View style={{flex: 1}}>
         <TopBar/>
         <ScrollView>
-          <View style={ styles.cardStyle}>
-            <GameLabel/>
-            <GameLabel/>
-            <GameLabel/>
-            <GameLabel/>
-            <GameLabel/>
-            <GameLabel/>
+          <View style={ cardStyle }>
+            <GameLabel 
+              text="Clash Royal" 
+              image={ require('../assets/images/clashclanslogo.png') }
+            />
           </View>
         </ScrollView>
       </View>

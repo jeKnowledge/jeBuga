@@ -5,19 +5,21 @@ import { Dimensions } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import { GameLogo } from './GameLogo';
 
-const GameLabel = ({style}) => {
+const GameLabel = ({ text, image }) => {
+  const { viewStyle, linearGradient, buttonText, logoStyle } = styles
   return (
     <TouchableWithoutFeedback onPress={() => Actions.gameProfile()}>
-      <View style={ styles.viewStyle }>
+      <View style={ viewStyle }>
         <LinearGradient
           start={{x: 0.0, y: 0.5}} end={{x: 1, y: 0.5}}
+          locations={[0.65,1]}
           colors={[ '#64c8d2', '#007dc5']}
-          style={styles.linearGradient}>
-          <Text style={styles.buttonText}>
-            Clash Royal
+          style={ linearGradient }>
+          <Text style={ buttonText }>
+            { text }
           </Text>
         </LinearGradient>
-        <GameLogo style={styles.logoStyle}/>
+        <GameLogo style={ logoStyle } image={ image }/>
       </View>
     </TouchableWithoutFeedback>
   );

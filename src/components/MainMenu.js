@@ -17,10 +17,10 @@ class MainMenu extends Component {
             justifyContent: 'space-around',
             height: 300,
           }}>
-          <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Games"/>
-          <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Favorites"/>
-          <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Favorite Guides"/>
-          <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Feed"/>
+          <GradientButton style={styles.linearGradient} onPress={Actions.gamesMenu} colors={[ '#64c8d2', '#007dc5']} text="Games"/>
+          <GradientButton style={styles.linearGradient} colors={[ '#64c8d2', '#007dc5']} text="Favorites"/>
+          <GradientButton style={styles.linearGradient} colors={[ '#64c8d2', '#007dc5']} text="Favorite Guides"/>
+          <GradientButton style={styles.linearGradient} colors={[ '#64c8d2', '#007dc5']} text="Feed"/>
         </Card>
       </View>
     </View>
@@ -29,6 +29,16 @@ class MainMenu extends Component {
 }
 
 const styles = {
+  linearGradient: {
+    paddingLeft: 15,
+    paddingRight: 15,
+    borderRadius: 20,
+    height: 45,
+    width: 300,
+    justifyContent: 'center',
+    alignItems: 'baseline',
+  },
+ 
   titleStyle: {
     fontSize: 30,
       backgroundColor: 'transparent',
