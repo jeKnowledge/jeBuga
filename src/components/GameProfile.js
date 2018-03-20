@@ -18,9 +18,17 @@ class GameProfile extends Component {
           <Text style={styles.subTitleStyle}>
             Nunc venenatis pellentesque consequat. In dictum libero facilisis magna tincidunt, vitae gravida metus aliquam. In mollis luctus mauris, a tempor urna imperdiet id.
           </Text>
-          <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Forum" />
-          <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Cards" />
-          <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Guides" />
+          <View style={{
+            flexDirection: 'column',
+            paddingTop: 10,
+            flex: 1,
+            justifyContent: 'space-between',
+            height: 130,
+          }}>
+            <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Forum" />
+            <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Cards" />
+            <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Guides" />
+          </View>
         </View>
       </View>
     )
@@ -33,7 +41,7 @@ const styles = {
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height*0.3
   },
-  
+
   logoStyle: {
     backgroundColor: 'white',
     height: Dimensions.get('window').height * 0.17,
@@ -47,7 +55,7 @@ const styles = {
 
   subTitleStyle: {
     fontSize: 15,
-    backgroundColor: 'transparent'
+      backgroundColor: 'transparent'
   },
 
   titleContainerStyle: {
@@ -57,11 +65,11 @@ const styles = {
     right: '8%',
     width: Dimensions.get('window').width * 0.85
   },
-  
+
   titleStyle: {
     fontSize: 30,
-    backgroundColor: 'transparent',
-    fontWeight: 'bold'
+      backgroundColor: 'transparent',
+      fontWeight: 'bold'
   }
 }
 
