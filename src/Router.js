@@ -14,7 +14,6 @@ const RouterComponent = () => {
         <Scene key="login" component={LoginForm} hideNavBar/>
         <Scene key="signup" component={SignupForm} hideNavBar/>
         <Scene
-          initial
           key="mainMenu"
           component={MainMenu}
           navigationBarStyle={styles.barStyle}
@@ -33,6 +32,7 @@ const RouterComponent = () => {
 
       <Scene
         key="gameProfile"
+        initial
         component={GameProfile}
         navigationBarStyle={styles.barStyle}
         renderTitle={() => { return <Bar/>; }}
@@ -51,7 +51,6 @@ const RouterComponent = () => {
       <Scene
         key="gamesMenu"
         component={GamesMenu}
-        initial
         navigationBarStyle={styles.barStyle}
         renderTitle={() => { return <Bar/>; }}
         renderBackButton={() =>

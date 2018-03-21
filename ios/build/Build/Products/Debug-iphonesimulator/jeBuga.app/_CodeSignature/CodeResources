@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		uCAe+CoLGLORJsNDKNy3PABW7k4=
+		K5x9AKfSr78IdKb3EeCHM05LM3w=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -74,31 +74,31 @@
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		ooz0sIAaLKBGoFU5iKq8DR11NmY=
+		uJ8dPaHt75z19ijs08lkugHq/RA=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		R/knOPjsjrJNiVtUa2S4kYE749M=
+		JBrL6En4QJlYoMl3malqnJmn+O8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+		dbDeE0h2Hr7N2KnFoER4aHgVj90=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		K7jOt4uC+lqy/StneXlQVk21axY=
+		6TSFXZwgmlONmxMDFLs4kWApLLU=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+		VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		M3EBma1BpAxt7iGIjYcrm9BnNOc=
+		GppB8PhBSInv7zFg7eYcqNwZWXQ=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		5EUn1qFgVTwSkfSLCubcLwgrx0c=
+		v6itdPCqWnawODUfQYc+nRyGDJY=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -111,11 +111,11 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		Etc/8BPenX54rv1uBx24u4bnqTg=
+		iStWmEB1q6TTpoeht5O8TSdKtb0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EhtqV+HdMNaeFxeS6mM0FIBrMgU=
+		A1itYJ6hw+e+YhSwzCPpK1VwKSU=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -151,19 +151,19 @@
 		</data>
 		<key>PlugIns/jeBugaTests.xctest.dSYM/Contents/Resources/DWARF/jeBugaTests</key>
 		<data>
-		KhDBzKjTGmanSuztlwsSkCSmXgI=
+		40g3XaM2VfF+bFEfLVJVBiWw7/c=
 		</data>
 		<key>PlugIns/jeBugaTests.xctest/Info.plist</key>
 		<data>
-		E8EeQLGk+s6EdDvKwW+dgwc5fos=
+		CUNzZYSYFlKsPPjhoFnF7oI6Lwo=
 		</data>
 		<key>PlugIns/jeBugaTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		6ewZFzZt7t8yRIMnQPlVWddQePQ=
+		9noxx0YdE+yQqOzO8/ZuPTrT1hQ=
 		</data>
 		<key>PlugIns/jeBugaTests.xctest/jeBugaTests</key>
 		<data>
-		MFBCo2k4UPjW03f/nrhrKh9oZ4U=
+		ZeinpCyLVAgJOmvBGb5bYRc6LU8=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -180,11 +180,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uCAe+CoLGLORJsNDKNy3PABW7k4=
+			K5x9AKfSr78IdKb3EeCHM05LM3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZkMJfQRfjUzSO+QRpBJ+khPpvaa8ouTZ/M7X+rT7o30=
+			ym8GNII27SdT8fswBhoK1tbWXsvIV3mECrXX1S6wZF8=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -367,77 +367,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ooz0sIAaLKBGoFU5iKq8DR11NmY=
+			uJ8dPaHt75z19ijs08lkugHq/RA=
 			</data>
 			<key>hash2</key>
 			<data>
-			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
+			d6d8CZAcM6Kdjf0zJpNR/lLlm1JBIL+jo73yQnC1M8w=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R/knOPjsjrJNiVtUa2S4kYE749M=
+			JBrL6En4QJlYoMl3malqnJmn+O8=
 			</data>
 			<key>hash2</key>
 			<data>
-			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
+			J/Q7YarUOESTurbho30IqTRcE6OiUWHnLdfDSMUbyIs=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+			dbDeE0h2Hr7N2KnFoER4aHgVj90=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
+			br5JnbDDYJqW9qsLElibwrloxLI/qAE+fWw2nPP0c5Y=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K7jOt4uC+lqy/StneXlQVk21axY=
+			6TSFXZwgmlONmxMDFLs4kWApLLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
+			LZ1ASodl//MKBSICK68FJm/CdWCR8khtshgaFC/ieak=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+			VSLVXbhCV5mDC5jgqIEaBXF4Kbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
+			VkelzrG8Kuv+tr/kUIl+vuviJ8HN2lva55atmSO9r6A=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M3EBma1BpAxt7iGIjYcrm9BnNOc=
+			GppB8PhBSInv7zFg7eYcqNwZWXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
+			tkN5JJG6yN6ivA9JyljUiNPAUHZ189GU4IPEXdsKs1k=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5EUn1qFgVTwSkfSLCubcLwgrx0c=
+			v6itdPCqWnawODUfQYc+nRyGDJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
+			SuG0eC2epXej+0FOC+J+gltXGdKlh2SgWTAjCWbsFP0=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -457,11 +457,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Etc/8BPenX54rv1uBx24u4bnqTg=
+			iStWmEB1q6TTpoeht5O8TSdKtb0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
+			inYnSzARwOiRjT2jEooaoBbVT1Ux8ckVmKUBouHF4mk=
 			</data>
 		</dict>
 		<key>Ionicons.ttf</key>
@@ -545,44 +545,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KhDBzKjTGmanSuztlwsSkCSmXgI=
+			40g3XaM2VfF+bFEfLVJVBiWw7/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			y3QocGoKlAsJvKXLkRfPrj9hKqo7EOEjrGpi8S+btJ4=
+			HELdiN2deQrqhk9fSUlK08dWVAjbOvO52dI2KZmqw2k=
 			</data>
 		</dict>
 		<key>PlugIns/jeBugaTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E8EeQLGk+s6EdDvKwW+dgwc5fos=
+			CUNzZYSYFlKsPPjhoFnF7oI6Lwo=
 			</data>
 			<key>hash2</key>
 			<data>
-			L292bkbqUDBNkPw+X3q0/0W5IXeH2C806P8XPzvXJ+Q=
+			Q+yl983N+5Xo2d7vxQcoT783+FfgBGptzJcn5ZUsbbw=
 			</data>
 		</dict>
 		<key>PlugIns/jeBugaTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6ewZFzZt7t8yRIMnQPlVWddQePQ=
+			9noxx0YdE+yQqOzO8/ZuPTrT1hQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hm8LilS8EvyKMczLwe2qCpkG+tUYt+uvk4J2nOT8M1Q=
+			TekfaVJq7IX9S5aKOfYiJUpbONLsO7X+0avNG5nRm3Q=
 			</data>
 		</dict>
 		<key>PlugIns/jeBugaTests.xctest/jeBugaTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MFBCo2k4UPjW03f/nrhrKh9oZ4U=
+			ZeinpCyLVAgJOmvBGb5bYRc6LU8=
 			</data>
 			<key>hash2</key>
 			<data>
-			1TwEHy8hHxCaggOE7ESYob7FKtBgOb/Nunw14Tyc2HE=
+			iJWmB2FZ11Pqa2OlCUAboV60ZwuczSlSOfvEGLJiIIk=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
