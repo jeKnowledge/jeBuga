@@ -4,7 +4,7 @@ import { Scene, Router, Actions } from 'react-native-router-flux';
 import MIIcon from 'react-native-vector-icons/MaterialIcons';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
-import { MainMenu, GameProfile, GamesMenu } from './components';
+import { MainMenu, GameProfile, GamesMenu, NewComment } from './components';
 import { Bar } from './components/common';
 
 const RouterComponent = () => {
@@ -32,7 +32,6 @@ const RouterComponent = () => {
 
       <Scene
         key="gameProfile"
-        initial
         component={GameProfile}
         navigationBarStyle={styles.barStyle}
         renderTitle={() => { return <Bar/>; }}
@@ -49,8 +48,27 @@ const RouterComponent = () => {
       />
 
       <Scene
+        initial
         key="gamesMenu"
         component={GamesMenu}
+        navigationBarStyle={styles.barStyle}
+        renderTitle={() => { return <Bar/>; }}
+        renderBackButton={() =>
+            <TouchableOpacity onPress={() => Actions.pop()}>
+              <MIIcon
+                name="keyboard-arrow-left"
+                size={55}
+                color="white"
+                style={{bottom: 8}}/>
+            </TouchableOpacity>
+        }
+        back
+      />
+
+      <Scene
+        initial
+        key="newComment"
+        component={NewComment}
         navigationBarStyle={styles.barStyle}
         renderTitle={() => { return <Bar/>; }}
         renderBackButton={() =>

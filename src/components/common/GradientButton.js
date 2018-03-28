@@ -9,13 +9,13 @@ import LinearGradient from 'react-native-linear-gradient';
 export default class GradientButton extends Component {
 
   render() {
-    const { children, onPress, colors, text } = this.props;
+    const { children, onPress, colors, text, style } = this.props;
     return (
       <TouchableOpacity onPress={onPress}>
         <LinearGradient
           start={{x: 0.0, y: 0.5}} end={{x: 1, y: 0.5}}
           colors={colors}
-          style={styles.linearGradient}>
+          style={[styles.linearGradient, style]}>
           <Text style={styles.buttonText}>
             {text}
           </Text>
