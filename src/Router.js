@@ -31,6 +31,7 @@ const RouterComponent = () => {
         />
 
       <Scene
+        initial
         key="gameProfile"
         component={GameProfile}
         navigationBarStyle={styles.barStyle}
@@ -48,7 +49,6 @@ const RouterComponent = () => {
       />
 
       <Scene
-        initial
         key="gamesMenu"
         component={GamesMenu}
         navigationBarStyle={styles.barStyle}
@@ -66,7 +66,6 @@ const RouterComponent = () => {
       />
 
       <Scene
-        initial
         key="newComment"
         component={NewComment}
         navigationBarStyle={styles.barStyle}

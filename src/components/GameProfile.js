@@ -1,101 +1,110 @@
 import React, { Component } from 'react';
 import { View, Dimensions, Image, Text } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
-import { GameLogo, TopBar, GradientButton } from './common';
-import Entypo from 'react-native-vector-icons/Entypo';
+import { GameLogo, TopBar, GradientButton, ScaledImage } from './common';
+import Icon from 'react-native-vector-icons/Entypo';
 
 class GameProfile extends Component {
   render() {
     return(
-      <View style={{ position: 'absolute', alignItems: 'center' }}>
+      <View style={styles.Container}>
         <TopBar/>
-        <Image
-          source={require('../assets/images/clashclanscapa.png')}
-          style={styles.imageStyle}
-        />
-        <View style={{
-          flexDirection: "row",
-          justifyContent: "space-between",
-          width: 200,
-          marginLeft: 80,
-        }}>
-        <View style={{alignItems: "flex-end", position: "relative", marginTop: -20}}>
-          <GameLogo style={styles.logoStyle}/>
+
+        <View style={styles.ImageContainer}>
         </View>
-        <View style={{height:10, marginTop: 10, marginRight: 25}}>
-          <Entypo.Button
-            name="star"
-            size={30}
-            color="white"
-            backgroundColor="#03BFD2"
-            iconStyle={{
-              height: 55,
-              width: 26,
-              marginBottom:-20,
-              marginRight: 5,
-            }}
-          />
+
+        <View style={styles.ThumbnailFavoritesContainer}>
+          <View style={styles.ThumbnailStyle}>
+          </View>
+          <View style={styles.FavoritesStyle}>
+            <Icon name='star' size={30} color='white'/>
+          </View>
         </View>
+
+        <View style={{flex: 5, alignItems: 'center', justifyContent: 'center'}}>
+          <View style={styles.TextButtonsContainer}>
+
+            <View style={styles.TextContainer}>
+              <View style={styles.TitleContainer}>
+                <Text style = {styles.TitleStyle}>
+                  Clash Royale
+                </Text>
+              </View>
+              <View style={styles.DescriptionStyle}>
+                <Text>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </Text>
+              </View>
+            </View>
+
+            <View style={styles.ButtonsContainer}>
+              <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Forum" />
+              <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Cards" />
+              <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Guides" />
+            </View>
+          </View>
+        </View>
+
       </View>
-      <View style={styles.titleContainerStyle}>
-        <Text style={styles.titleStyle}>Clash Royale</Text>
-        <Text style={styles.subTitleStyle}>
-          Nunc venenatis pellentesque consequat. In dictum libero facilisis magna tincidunt, vitae gravida metus aliquam. In mollis luctus mauris, a tempor urna imperdiet id.
-        </Text>
-        <View style={{
-          flexDirection: 'column',
-          paddingTop: 10,
-          flex: 1,
-          justifyContent: 'space-between',
-          height: 130,
-        }}>
-        <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Forum" />
-        <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Cards" />
-        <GradientButton colors={[ '#64c8d2', '#007dc5']} text="Guides" />
-      </View>
-    </View>
-  </View>
     )
   }
 }
 
+const windowWidth = Dimensions.get('window').width
+const windowHeight = Dimensions.get('window').height
+
 const styles = {
-  imageStyle: {
-    resizeMode: 'stretch',
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height*0.3
+  Container: {
+    height: windowHeight * 0.91,
+    alignItems: 'center',
   },
-
-  logoStyle: {
-    backgroundColor: 'white',
-    height: Dimensions.get('window').height * 0.17,
-    width: Dimensions.get('window').width * 0.3,
-    resizeMode: 'contain',
-    bottom: '7%',
-    borderRadius: 30,
-    borderColor: '#329CB2',
-    borderWidth: 3,
+  ImageContainer: {
+    flex: 2,
+    backgroundColor: 'grey',
+    width: windowWidth,
   },
-
-  subTitleStyle: {
-    fontSize: 10,
-      backgroundColor: 'transparent'
+  TextButtonsContainer: {
+    flex: 1,
+    width: windowWidth * 0.8,
   },
-
-  titleContainerStyle: {
-    marginLeft: '15%',
-    marginBottom: '55%',
-    bottom: '5%',
-    right: '8%',
-    width: Dimensions.get('window').width * 0.85,
-    marginTop: 30
+  TextContainer: {
+    flex: 1,
   },
-
-  titleStyle: {
+  TitleContainer: {
+    paddingTop: 10,
+    paddingBottom: 10
+  },
+  TitleStyle: {
+    fontWeight: 'bold',
     fontSize: 20,
-      backgroundColor: 'transparent',
-      fontWeight: 'bold'
-  }
+  },
+  ButtonsContainer: {
+    flex: 2,
+    flexDirection: 'column',
+    justifyContent: 'space-around',
+  },
+  ThumbnailFavoritesContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    width: windowWidth * 0.35,
+    position: 'absolute',
+  },
+  ThumbnailStyle: {
+    backgroundColor: 'white',
+    borderRadius: 10,
+    borderColor:  '#2489a0',
+    borderWidth: 3,
+    height: '100%',
+    width: '55%'
+  },
+  FavoritesStyle: {
+    backgroundColor: '#00C2CB',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderRadius: 50,
+    height: '50%',
+    marginLeft: 10,
+  },
 }
 
 export { GameProfile };
