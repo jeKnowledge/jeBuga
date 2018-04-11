@@ -4,7 +4,7 @@ import { Scene, Router, Actions } from 'react-native-router-flux';
 import MIIcon from 'react-native-vector-icons/MaterialIcons';
 import LoginForm from './components/LoginForm';
 import SignupForm from './components/SignupForm';
-import { MainMenu, GameProfile, GamesMenu, NewComment } from './components';
+import { MainMenu, GameProfile, GamesMenu, NewComment, Forum } from './components';
 import { Bar } from './components/common';
 
 const RouterComponent = () => {
@@ -14,8 +14,7 @@ const RouterComponent = () => {
         <Scene key="login" component={LoginForm} hideNavBar/>
         <Scene key="signup" component={SignupForm} hideNavBar/>
         <Scene
-          key="mainMenu"
-          component={MainMenu}
+          initial
           navigationBarStyle={styles.barStyle}
           renderTitle={() => { return <Bar/>; }}
           renderBackButton={() =>
@@ -28,61 +27,35 @@ const RouterComponent = () => {
               </TouchableOpacity>
           }
           back
-        />
+        >
+          <Scene
+            key="mainMenu"
+            component={MainMenu}
+          />
 
-      <Scene
-        initial
-        key="gameProfile"
-        component={GameProfile}
-        navigationBarStyle={styles.barStyle}
-        renderTitle={() => { return <Bar/>; }}
-        renderBackButton={() =>
-            <TouchableOpacity onPress={() => Actions.pop()}>
-              <MIIcon
-                name="keyboard-arrow-left"
-                size={55}
-                color="white"
-                style={{bottom: 8}}/>
-            </TouchableOpacity>
-        }
-        back
-      />
+        <Scene
+          key="gameProfile"
+          component={GameProfile}
+        />
 
       <Scene
         key="gamesMenu"
         component={GamesMenu}
-        navigationBarStyle={styles.barStyle}
-        renderTitle={() => { return <Bar/>; }}
-        renderBackButton={() =>
-            <TouchableOpacity onPress={() => Actions.pop()}>
-              <MIIcon
-                name="keyboard-arrow-left"
-                size={55}
-                color="white"
-                style={{bottom: 8}}/>
-            </TouchableOpacity>
-        }
-        back
       />
 
-      <Scene
-        key="newComment"
-        component={NewComment}
-        navigationBarStyle={styles.barStyle}
-        renderTitle={() => { return <Bar/>; }}
-        renderBackButton={() =>
-            <TouchableOpacity onPress={() => Actions.pop()}>
-              <MIIcon
-                name="keyboard-arrow-left"
-                size={55}
-                color="white"
-                style={{bottom: 8}}/>
-            </TouchableOpacity>
-        }
-        back
-      />
+    <Scene
+      key="newComment"
+      component={NewComment}
+    />
+
+  <Scene
+    initial
+    key="forum"
+    component={Forum}
+  />
     </Scene>
-  </Router>
+  </Scene>
+</Router>
   );
 };
 

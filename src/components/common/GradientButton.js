@@ -31,7 +31,7 @@ var styles = {
     paddingRight: 15,
     borderRadius: 20,
     height: 35,
-    width: 300,
+    //width: 300,
     justifyContent: 'center',
     alignItems: 'baseline',
   },
